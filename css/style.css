@@ -1,0 +1,220 @@
+body {
+	margin: 0;
+	font-family: 'Roboto';
+	font-size: 18px;
+}
+img{
+	max-width: 100%;
+}
+header {
+	padding-top: 59px;
+	background-color: #3477f8;
+	color: #fff;
+	padding-bottom: 22px;
+}
+/*header*/
+.header-title{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 102px;
+}
+.main-title{
+	font-size:44px;
+	margin-top: 20px;
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+.post-title{
+	padding-top: 0px;
+	margin-bottom: 0px;
+	font-weight: 400;
+}
+.header-button{
+	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+	border-radius: 25px;
+	background-color: #ffffff;
+	margin-top: 20px;
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 17px 57px 19px 55px;
+}
+header small{
+	font-size:12px;
+	display: block;
+	text-align: center;
+	margin-top:9px;
+}
+.header-button-block{
+	max-width: 215px;
+}
+/*porfolio*/
+.portfolio{
+	background-color:#dddddd;
+	padding-top: 44px;
+	padding-bottom: 71px;
+}
+.portfolio-block{
+	background-color: #ffffff;
+	padding-top: 29px;
+	padding-bottom: 44px;
+}
+.portfolio-title{
+	/* Style for "Портфолио" */
+color: #072b6f;
+font-size: 18px;
+text-align: center;
+text-transform: uppercase;
+}
+.portfolio-subtitle{
+	/* Style for "Мои работы" */
+color: #7bb9ff;
+font-size: 14px;
+margin-top: 10px;
+text-align: center;
+}
+.portfolio-block-1{
+	padding-left: 75px;
+}
+.portfolio-block-2{
+	padding-right: 50px;
+}
+.portfolio-block h3{
+	/* Style for "внутренний" */
+color: #072b6f;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.portfolio-block-1 p{
+	/* Style for "Газпром" */
+color: #8f8f8f;
+font-size: 14px;
+font-weight: 400;
+text-align: left;
+}
+.portfolio-block-2 p{
+	/* Style for "Мир" */
+color: #8f8f8f;
+font-size: 14px;
+font-weight: 400;
+text-align: left;
+}
+.portfolio-block-1 a{
+	/* Style for "Смотреть р" */
+font-size: 14px;
+font-weight: 400;
+}
+.portfolio-block-2 a{
+	/* Style for "Смотреть р" */
+font-size: 14px;
+font-weight: 400;
+}
+/**/
+footer{
+	background-color: #3477f8;
+	color: #fff;
+	padding-top: 60px;
+	padding-bottom: 110px;
+}
+.footer-author{
+	/* Style for "Артем Исла" */
+color: #fefefe;
+font-size: 24px;
+margin-bottom: 7px;
+}
+.footer-author-do{
+	/* Style for "Разработка" */
+color: #deedfe;
+font-size: 18px;
+margin-top: 7px;
+}
+.socials{
+	text-align: center;
+}
+.socials p{
+	/* Style for "Подпишитес" */
+color: #deedfe;
+font-size: 18px;
+}
+.socials a{
+	margin-left: 13px;
+	margin-right: 13px;
+}
+.footer-do{
+	text-align: center;
+	color: 
+}
+.footer-do p{
+	/* Style for "Напишите м" */
+color: #deedfe;
+font-size: 18px;
+margin-bottom: 13px;
+}
+.footer-button{
+	display: inline-block;
+	background-color: transparent;
+	border:1px solid #ffffff;
+	padding:12px 40px;
+	border-radius: 50px;
+	color:#fff;
+}
+@media(max-width: 1200px){
+	.header-title{
+		margin-top:60px;
+	}
+	.portfolio-title{
+		color: #072b6f;
+		font-size: 18px;
+		text-align: center;
+}
+}
+@media(max-width: 992px){
+	.comp{
+		display: none;
+	}
+	.header-title{
+		margin-top:0px;
+	}
+	.footer-author-do{
+		font-size: 14px;
+	}
+	.footer-author{
+		font-size: 18px;
+	}
+	.socials img{
+		width: 25px;
+	}
+	.socials a{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.footer-button{
+		padding:10px 30px;
+	}
+}
+@media(max-width: 768px){
+	.portfolio-block-1{
+		padding-left: 35px;
+		padding-right: 30px;
+	}
+	.portfolio-block-2{
+		padding-left: 35px;
+		padding-right: 30px;
+		margin-top: 30px;
+	}
+	.socials img{
+		width: 20px;
+	}
+	.socials a{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.footer-author-do{
+		text-align: center;
+	}
+	.footer-author{
+		text-align: center;
+	}
+}
+}
